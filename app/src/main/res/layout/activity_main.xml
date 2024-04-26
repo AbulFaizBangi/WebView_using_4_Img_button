@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButtonOption1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/googlelogo"
+        android:contentDescription="@string/option1_description"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="12dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonOption2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/youtubeicon"
+        android:contentDescription="@string/option2_description"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="10dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonOption3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/githubicon"
+        android:contentDescription="@string/option3_description"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="8dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonOption4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/amazonicon"
+        android:contentDescription="@string/option4_description"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="6dp" />
+
+</LinearLayout>

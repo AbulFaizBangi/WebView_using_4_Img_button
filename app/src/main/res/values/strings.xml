@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WebViewIMGButton</string>
+    <string name="option1_description" />
+    <string name="option2_description">\n</string>
+    <string name="option3_description" />
+    <string name="option4_description" />
+</resources>
